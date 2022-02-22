@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.body {
+  background-color: var(--body-bg-color);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: var(--text-color);
+  height: 100vh;
+  width: 100vw;
+  max-width: 50%;
+}
+
+.logo img {
+  max-width: 480px;
+  margin: 50px 400px 130px 50px;
+  width: 100%;
+}
+
+.title-text {
+  display: block;
+  max-width: 800px;
+  margin-left: 50px;
+}
+
+.title-text p#title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: var(--title-color);
+}
+
+.title-text p#subtitle {
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  color: var(--text-color);
+}
+
+.title-text p.text {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: var(--text-color);
+}
+
+.form {
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+  position: relative;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  justify-content: flex-start;
+  border-left: 8px solid var(--title-color);
+  height: 70px;
+}
+
+.box-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: var(--text-color);
+  box-shadow: 15px 15px 15px rgb(37, 27, 44, 0.5);
+  position: absolute;
+  width: 120%;
+}
+
+.form form label {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: var(--form-color);
+  font-family: "Spartan", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.custom-email-input {
+  width: 500px;
+  height: 70px;
+  outline: none;
+  background-color: var(--text-color);
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 15px;
+  border-style: solid;
+  border-left: var(--title-color);
+}
+.custom-email-button {
+  width: 70px;
+  height: 70px;
+  border: 0;
+  outline: none;
+  background: var(--bg-button-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.readme a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 70px;
+  color: var(--bg-button-color);
+  text-decoration: none;
+}
+
+.image {
+  background-image: url("./assets/read_news.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  width: 100vw;
+  height: 100vh;
+  max-width: 50%;
+}

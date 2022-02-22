@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: var(--background);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.logo svg {
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--title);
+  padding-bottom: 30px;
+}
+
+.subtitle {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  color: var(--subtitle);
+  padding-top: 30px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background: var(--bg-button);
+  margin: auto;
+  cursor: pointer; 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.button:hover {
+  background: var(--title);
+}
+
+.button svg {
+  padding-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.button p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.movie-info {
+ display: flex;
+ width: 50%;
+ height: auto;
+ margin: auto;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ color: var(--title);
+ padding-bottom: 2rem;
+}
+
+.movie-info img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.movie-info h2 {
+  margin-bottom: 20px;
+}
+
+.movie-info > p {
+  line-height: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 990px) {
+  .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .movie-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .movie-info img {
+   margin: 0 auto;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+

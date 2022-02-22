@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rocketcard</title>
+</head>
+
+<body>
+  <div class="container">
+   <span>
+    <div class="title">
+      <p>Compartilhe seu #rocketcard</p>
+    </div>
+    <div class="background-card">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-logo">
+            <img src="/assets/logo.svg" alt="" srcset="">
+          </div>
+          <p id="userLogin" class="card-slug"></p>
+        </div>
+        <div class="card-body">
+          <div class="image-profile">
+            <img id="userImage" alt="Imagem de perfil">
+          </div>
+        </div>
+
+        <div class="info">
+  
+          <div class="github-info">
+            <img src="/assets/followers.svg" alt="">
+            <p id="userFollowers"></p>
+            <p>Seguidores</p>
+          </div>
+
+          <div class="github-info">
+            <img src="/assets/following.svg" alt="">
+            <p id="userFollowing"></p>
+            <p>Seguindo</p>
+          </div>
+
+          <div class="github-info">
+            <img src="/assets/repository.svg" alt="teste">
+            <p id="userRepositories"></p>
+            <p>Repositórios</p>
+          </div>
+
+          <div class="github-info">
+            <img src="/assets/company.svg" alt="" srcset="">
+            <p id="userCompany"></p>
+          </div>
+
+          <div class="github-info">
+            <img src="/assets/location.svg" alt="" srcset="">
+            <p id="userLocation"></p>
+          </div>
+
+        </div>
+
+        <div class="card-footer">
+          <img src="/assets/logo.svg" alt="" srcset="">
+          <strong>ROCKET</strong>CARD
+        </div>
+
+      </div>
+
+    </div>
+   </span>
+
+    <div class="customize">
+     <span>
+      <p>Customizar Rocketcard</p>
+      <div class="buttons">
+        <button id="color" class="button" onclick="randomColor()">Gerar background</button>
+      </div>
+     </span>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

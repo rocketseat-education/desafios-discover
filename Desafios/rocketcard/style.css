@@ -1,0 +1,209 @@
+@import url('/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
+
+:root {
+  --bg: #000000;
+  --bg-card: #0E1218;
+  --text: #F1F1F1;
+  --img-profile: #8257e5;
+  --buttons: #FFF;
+  --border-button: #1A1A1A;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: var(--bg-card);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.background-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-color: var(--bg);
+  border: 1px solid var(--text);
+  border-radius: 50px;
+  width: 25rem;
+  height: 40rem;
+}
+
+.title {
+  padding-bottom: 1rem;
+}
+
+.title p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  overflow: hidden;
+  background-color: var(--bg-card);
+  width: 21rem;
+  height: 38rem;
+  border-radius: 50px;
+}
+
+.customize {
+  border-radius: 5px;
+  margin-left: 8rem;
+  display: flex;
+}
+
+.customize span p {
+  font-size: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  color: var(--text);
+  padding: 2rem;
+  align-items: center;
+}
+
+.card-header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--text);
+  border-radius: 50px;
+}
+
+.card-body {
+  position: relative;
+  color: var(--text);
+  font-weight: 100;
+}
+
+.card-slug {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem;
+  text-align: center;
+}
+
+.image-profile {
+  right: -50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.image-profile img {
+  width: 20rem;
+  height: 20rem;
+  border: 6px solid var(--img-profile);
+  border-radius: 50%;
+}
+
+.info {
+  top: 400px;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background: var(--bg);
+  background: linear-gradient(66deg, rgba(0,0,0,0.2748267898383372) 0%, rgba(34,35,38,1) 100%);
+  padding: 1.5rem;
+  border-radius: 50px;
+}
+
+.github-info {
+  display: flex;
+  align-items: center;
+}
+
+.github-info p {
+  padding: 0.5rem;
+}
+
+.github-info img {
+  color: var(--buttons);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 650px;
+  padding-left: 11rem;
+}
+
+.card-footer img {
+  padding-right: 0.3rem;
+  width: 1,5rem;
+  height: 1.5rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  gap: 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* BUTTONS  */
+.button {
+  appearance: none;
+  background-color: var(--bg);
+  border: 2px solid var(--border-button);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

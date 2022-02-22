@@ -1,0 +1,245 @@
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-base);
+  font-size: 16px;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  transition: filter 200ms;
+}
+
+a:hover {
+  /* background-color: #e3a70a; */
+  filter: brightness(0.8);
+}
+
+.container {
+  height: 100vh;
+  padding: 40px 20px;
+}
+
+header {
+  margin-bottom: 27px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-title);
+}
+
+header p {
+  font-weight: 500;
+}
+
+form .item {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid #868686;
+  background: transparent;
+  border-radius: 4px;
+}
+
+input:focus {
+  border: 1px solid var(--primary-color);
+  outline: 2px solid #ffde88;
+  outline-offset: 0;
+}
+
+.item input {
+  width: 100%;
+  height: 44px;
+  padding: 0 37px;
+  color: #a9afb9;
+  font-size: 14px;
+}
+
+.item label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.password {
+  position: relative;
+}
+
+#email {
+  background: url(images/mail.svg) no-repeat scroll 10px 11px;
+}
+
+#email:focus-within {
+  background: url(images/mail-focus.svg) no-repeat scroll 10px 11px;
+}
+
+#password {
+  background: url(images/lock.svg) no-repeat scroll 10px 11px;
+}
+
+#password:focus-within {
+  background: url(images/lock-focus.svg) no-repeat scroll 10px 11px;
+}
+
+.password img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 42px;
+  right: 20px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkbox input[type='checkbox'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+input[type='checkbox']::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  transform: scale(0);
+  background: url(images/check.svg), var(--primary-color);
+  position: absolute;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+}
+
+input[type='checkbox']:checked::before {
+  transform: scale(1);
+}
+
+a,
+.register {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.register {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 24px;
+  background: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #473404;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  transition: filter 200ms;
+}
+
+button:hover {
+  /* background-color: #e3a70a; */
+  filter: brightness(0.8);
+}
+
+.side-image {
+  display: none;
+}
+
+@media (min-width: 1299px) {
+  body {
+    display: flex;
+  }
+
+  .container {
+    width: 50%;
+
+    max-width: 900px;
+  }
+
+  .content {
+    margin-top: 126px;
+    padding: 0 50px;
+  }
+
+  .form-container {
+    background: #24221f;
+    padding: 55px 119px;
+    border-radius: 4px;
+  }
+
+  .side-image {
+    display: block;
+    flex: 1;
+    height: 100vh;
+    background: url(images/side-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 2000px) {
+  .side-image {
+    background: url(images/side-image-2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

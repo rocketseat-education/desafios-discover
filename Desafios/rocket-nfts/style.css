@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--body-background);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1277px;
+  margin: 0 auto;
+}
+
+#home {
+  width: 100vw;
+  height: 1200px;
+  background-image: url('/assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+}
+
+#home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.75rem;
+}
+
+#home header .menu {
+  display: flex;
+  gap: 3.75rem;
+}
+
+#home header .menu a {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+#home header .button a {
+  display: flex;
+  background-color: var(--text-color);
+  width: 14.37rem;
+  height: 3.125rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.93rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black-text);
+}
+
+#home .intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.3125rem;
+  margin-bottom: 6.3125rem;
+  gap: 2.5rem;
+}
+
+#home .intro .selected-artists {
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4375rem;
+  max-width: 390px;
+}
+
+#home .intro .selected-artists .selected-artists-text {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.375rem;
+}
+
+#home .intro .selected-artists .selected-artists-text p span {
+  display: block;
+  font-weight: 700;
+}
+
+#home .intro h1 {
+  font-size: 3.125rem;
+  max-width: 596px;
+}
+
+#home .intro h1 span {
+  color: var(--color-logo);
+}
+
+#home .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 3.75rem;
+  width: 100%;
+}
+
+#home .gallery img {
+  border: 1px solid var(--text-color);
+}
+
+.info {
+  display: flex;
+  height: 677px;
+  color: var(--text-color);
+  /* position: relative; */
+}
+
+.info .numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 134px;
+  padding-right: 70px;
+  border-right: 1px solid var(--subtitle-color);
+}
+
+.info .numbers p {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.info .numbers p span {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--subtitle-color);
+}
+
+.info .info-text {
+  display: flex;
+  gap: 100px;
+  margin-left: 68px;
+  margin-top: 80px;
+  margin-bottom: 71px;
+  font-size: 1.125rem;
+}
+
+.info .info-text div {
+  width: 440px;
+}
+
+.info .info-text div a {
+  text-decoration: underline;
+  color: var(--text-color);
+}
+
+.info .info-text div p {
+  margin-bottom: 63px;
+}
+
+.info .info-text div p a {
+  color: var(--color-logo);
+}
+
+.info-image {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background: url('/assets/banner.png');
+  background-size: cover;
+  z-index: 1;
+}
+
+.divider-bottom {
+  border-bottom: 1px solid var(--subtitle-color);
+
+}
+
+#popular {
+  margin-top: 155px;
+}
+
+h2 {
+  font-size: 3.125rem;
+  color: var(--text-color);
+}
+
+h2 span {
+  color: var(--color-logo);
+}
+
+.artists {
+  margin-top: 172px;
+  display: flex;
+  color: var(--text-color);
+  gap: 17.31rem;
+}
+
+.artists p:nth-child(2) {
+  color: var(--color-logo);
+}
+
+.artist-title, .artist-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artist-title {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.artist-name {
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.artist-image {
+  margin-bottom: 50px;
+}
+
+.divider-middle {
+  border-right: 1px solid var(--subtitle-color);
+}
+
+#best-artists h2 {
+  text-align: center;
+  margin: 151px 0 120px 0;
+}
+
+.best-artists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 111px;
+}
+
+.best-artist {
+  display: flex;
+  align-items: center;
+  background-color: var(--card-color);
+  width: 350px;
+  height: 150px;
+  gap: 40px;
+  padding: 25px 20px;
+}
+
+.best-artist img{
+  width: 100px;
+  height: 100px;
+}
+
+.best-artist p {
+  margin-bottom: 10px;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.best-artist p:nth-child(2) {
+  color: var(--color-logo);
+}
+
+.highlight {
+  background-color: var(--color-logo);
+  color: var(--text-color);
+}
+
+.highlight p:nth-child(2) {
+  color: var(--text-color);
+}
+
+.show-artists {
+  margin-top: 60px;
+}
+
+.show-artists a {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+footer {
+  padding: 82px 0 60px 0; 
+  background-color: var(--card-color);
+  margin-top: 156px;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.footer-header a {
+  display: flex;
+  background-color: var(--color-logo);
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 62px;
+}
+
+.footer-content h2 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  width: 350px;
+  margin: 67px 0 23px 0;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 82px;
+}
+
+input {
+  color: var(--subtitle-color);
+  border: none;
+  background-color: var(--color-input);
+  padding: 20px;
+  font-size: 1.25rem;
+}
+
+button {
+  background-color: #FFF;
+  border: none;
+  padding: 20px 26px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.footer-map {
+  display: flex;
+  margin: 67px 0 53px 0;
+  gap: 128px;
+  margin-left: 60px;
+}
+
+.footer-map ul {
+  list-style: none;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-map ul li a {
+  color: var(--subtitle-color);
+  font-weight: 400;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.footer-bottom > a {
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+}
+
+.social a {
+  margin-left: 50px;
+}

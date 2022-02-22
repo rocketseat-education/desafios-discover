@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--backgrond);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+#background::before {
+  content: '';
+  background-image: url('/assets/blur-1.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 793px;
+  height: 572px;
+  z-index: -1;
+}
+
+#background::after {
+  content: '';
+  background-image: url('/assets/blur-2.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 615px;
+  height: 700px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 86.6rem;
+  height: 100vh;
+}
+
+#header-desktop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 8rem 0;
+  align-items: center;
+  z-index: 2;
+}
+
+#header-desktop ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+#header-desktop li {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+button {
+  border: solid 1px var(--button);
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: #FFF;
+  border-radius: .6rem;
+  padding: 1.1rem 3.7rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button:hover {
+  background-color: var(--button);
+}
+
+#header-mobile {
+  display: none;
+}
+
+#cta {
+  display: none;
+}
+
+#menu-mobile {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 9rem;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+h1:nth-child(3) {
+  font-size: 9rem;
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+  color: #000;
+}
+
+ #coffee {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+
+ #header-desktop {
+   display: none;
+ }
+
+ #header-mobile {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3.7rem 2.5rem 2.5rem; 
+    border-bottom: 1px solid var(--border);
+ }
+
+ #button-burguer {
+   background: url(/assets/menu-buguer-open.svg) no-repeat;
+   width: 2.4rem;
+    height: 0.8rem;
+    cursor: pointer;
+ }
+
+ #button-burguer.active {
+  background: url(/assets/menu-buguer-close.svg) no-repeat;
+  width: 1.7rem;
+   height: 1.7rem;
+   cursor: pointer;
+ }
+
+ .container {
+    width: 100vw;
+    height: 100vh;
+ }
+
+ #background::after {
+  display: none;
+}
+
+ #cta {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 30rem;
+  margin: 8.8rem 2.8rem;
+  gap: 8.8rem;
+ }
+
+ #cta h3 {
+   font-size: 3rem;
+   font-weight: 600;
+   text-align: center;
+ }
+
+ h1, h1:nth-child(3) {
+  font-size: 5rem;
+ }
+
+#coffee img {
+   display: block;
+   width: 100%;
+ }
+
+ #header-mobile button {
+   padding-right: 0;
+ }
+
+ #menu-mobile.active {
+   display: block;
+   background: #000;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 10.4rem;
+ }
+
+ #menu-mobile.active ul li {
+   border-bottom: 1px solid var(--border);
+   width: 100%;
+ }
+
+ #menu-mobile.active ul li a {
+   font-size: 1.8rem;
+   color: var(--border-menu-mobile);
+   padding: 1.7rem 3rem;
+   display: inline-block;
+   transition: .2s;
+   width: 100%;
+ }
+
+ #menu-mobile.active ul li a:hover{
+  border-left: 5px solid var(--button);
+  font-weight: 800;
+  color: var(--text-color-menu-mobile);
+  padding-left: 2.5rem;
+}
+}
