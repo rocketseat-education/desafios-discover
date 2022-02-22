@@ -2,7 +2,7 @@
 
 # Desafios Discover
 
-### Básico
+### Básico 
 
 | Nome                                              | Tecnologia Sugerida |
 | ------------------------------------------------- | ------------------- |
@@ -35,4 +35,4 @@
 
 ---
 
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com 💜 pela Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
