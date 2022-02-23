@@ -1,7 +1,7 @@
 # Desafios Discover
 
 <p align="center">
-Caiu de paraquedas aqui? <a href="https://rocketseat.com.br/discover">Conheça o Discover</a>
+Caiu de paraquedas aqui? <a target="_blank" href="https://rocketseat.com.br/discover">Conheça o Discover</a>
 </p>
 
   <a href="https://rocketseat.com.br/discover" target="_blank">
