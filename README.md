@@ -1,10 +1,12 @@
 # Desafios Discover
 
 <p align="center">
-Caiu de paraquedas aqui? Conheça o Discover
+Caiu de paraquedas aqui? <a href="https://rocketseat.com.br/discover">Conheça o Discover</a>
 </p>
 
-![Desafios Discover](.github/banner.jpeg)
+  <a href="https://rocketseat.com.br/discover" target="_blank">
+ <img align="center" src=".github/banner.jpeg" alt="instagram"/>
+</a>
 
 <p align="center">
   <a href="https://instagram.com/rocketseat_oficial" target="_blank">
