@@ -63,7 +63,7 @@ _Desafios indicados para quem está nos primeiros estágios do aprendizado. Proj
 
 ### Intermediário:
 
-_Projetos que desafiam devs já acostumados ao HTML e CSS, em início de aprendizado em Javascript._
+_Projetos que desafiam devs já acostumados ao HTML e CSS, em início de aprendizado em JavaScript._
 
 | Nome                                        | Tecnologia Sugerida |
 | ------------------------------------------- | ------------------- |
@@ -77,7 +77,7 @@ _Projetos que desafiam devs já acostumados ao HTML e CSS, em início de aprendi
 
 ### Avançado:
 
-_Desafios desenvolvidos para quem deseja mergulhar mais fundo no universo das APIs e dev tools. Indicados para todos que codam facilmente em HTML, CSS e Javascript._
+_Desafios desenvolvidos para quem deseja mergulhar mais fundo no universo das APIs e dev tools. Indicados para todos que codam facilmente em HTML, CSS e JavaScript._
 
 | Nome                                 | Tecnologia Sugerida |
 | ------------------------------------ | ------------------- |
