@@ -90,6 +90,6 @@ _Desafios desenvolvidos para quem deseja mergulhar mais fundo no universo das AP
 
 <p align="center">
    <a href="https://discord.gg/rocketseat" target="_blank">
- <img align="center" src="./.github/rodape1.svg" alt="banner"/>
+ <img align="center" src="./.github/rodape.svg" alt="banner"/>
 </a>
 </p>
