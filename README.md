@@ -88,4 +88,8 @@ _Desafios desenvolvidos para quem deseja mergulhar mais fundo no universo das AP
 
 ---
 
-Feito com 💜 pela Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+<p align="center">
+   <a href="https://discord.gg/rocketseat" target="_blank">
+ <img align="center" src="./.github/rodape1.svg" alt="banner"/>
+</a>
+</p>
