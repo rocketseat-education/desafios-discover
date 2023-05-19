@@ -9,4 +9,4 @@ Neste desafio você deverá desenvolver um card que traga as informações da AP
 
 Neste desafio você deverá desenvolver um card que traga as informações da API do Github e tenha um botão que altere a cor do fundo do card.
 
-Para visualizar as intruções do desafio,[ acesse a página do Discover e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-Rocketcard-0d3572ef941f4a88889191773fe61c44)
+Para visualizar as intruções do desafio,[ acesse este link e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-Rocketcard-0d3572ef941f4a88889191773fe61c44)

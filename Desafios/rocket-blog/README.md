@@ -9,4 +9,4 @@ Neste desafio você irá desenvolver uma homepage para um blog.
 
 Neste desafio você irá desenvolver uma homepage para um blog.
 
-Para visualizar as intruções do desafio,[ acesse a página do Discover e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e)
+Para visualizar as intruções do desafio,[ acesse este link e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e)

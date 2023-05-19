@@ -9,4 +9,4 @@ Neste desafio você deverá desenvolver um mini e-commerce de calçados esportiv
 
 Neste desafio você deverá desenvolver um mini e-commerce de calçados esportivos.
 
-Para visualizar as intruções do desafio,[ acesse a página do Discover e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketShoes-c21f2886517b4424a45e13345953cef0)
+Para visualizar as intruções do desafio,[ acesse este link e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketShoes-c21f2886517b4424a45e13345953cef0)

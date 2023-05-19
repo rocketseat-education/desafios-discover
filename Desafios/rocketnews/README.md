@@ -9,4 +9,4 @@
 
 Desenvolva uma página para captação de leads ou newsletter.
 
-Para visualizar as intruções do desafio,[ acesse a página do Discover e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketNews-2e2c5d56b41f4b13a7d8df6b5affc0ec)
+Para visualizar as intruções do desafio,[ acesse este link e bora codar! 🚀](https://efficient-sloth-d85.notion.site/Desafio-RocketNews-2e2c5d56b41f4b13a7d8df6b5affc0ec)
