@@ -5,7 +5,7 @@ Caiu de paraquedas aqui? <a target="_blank" href="https://rocketseat.com.br/disc
 </p>
 
   <a href="https://rocketseat.com.br/discover" target="_blank">
- <img align="center" src=".github/banner.jpeg" alt="instagram"/>
+ <img align="center" src=".github/banner.png" alt="banner"/>
 </a>
 
 <p align="center">
