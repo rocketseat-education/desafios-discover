@@ -10,7 +10,7 @@ Caiu de paraquedas aqui? <a target="_blank" href="https://rocketseat.com.br/disc
 
 <p align="center">
   <a href="https://instagram.com/rocketseat" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-rocketseat__oficial-121214?style=flat&logo=instagram" alt="instagram"/>
+ <img align="center" src="https://img.shields.io/badge/-rocketseat-121214?style=flat&logo=instagram" alt="instagram"/>
 </a>
 <a href="https://youtube.com/rocketseat" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-rocketseat-121214?style=flat&logo=youtube" alt="youtube"/>
@@ -18,14 +18,14 @@ Caiu de paraquedas aqui? <a target="_blank" href="https://rocketseat.com.br/disc
   <a href="https://twitter.com/rocketseat" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-rocketseat-121214?style=flat&logo=twitter" alt="twitter"/>
 </a>
-  <a href="https://twitch.com/rocketseat_oficial" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-rocketseat__oficial-121214?style=flat&logo=twitch" alt="twitch"/>
-</a>
     <a href="https://facebook.com/rocketseat" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-rocketseat-121214?style=flat&logo=facebook" alt="facebook"/>
 </a>
    <a href="https://www.linkedin.com/school/rocketseat/" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-rocketseat-121214?style=flat&logo=linkedin" alt="linkedin"/>
+</a>
+ <a href="https://twitch.com/rocketseat_oficial" target="_blank">
+ <img align="center" src="https://img.shields.io/badge/-rocketseat__oficial-121214?style=flat&logo=twitch" alt="twitch"/>
 </a>
 </p>
 
