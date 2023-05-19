@@ -9,7 +9,7 @@ Caiu de paraquedas aqui? <a target="_blank" href="https://rocketseat.com.br/disc
 </a>
 
 <p align="center">
-  <a href="https://instagram.com/rocketseat_oficial" target="_blank">
+  <a href="https://instagram.com/rocketseat" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-rocketseat__oficial-121214?style=flat&logo=instagram" alt="instagram"/>
 </a>
 <a href="https://youtube.com/rocketseat" target="_blank">
